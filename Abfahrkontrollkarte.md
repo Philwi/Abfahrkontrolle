@@ -79,6 +79,7 @@ Rahmenbedingungen:
   - Uhrzeit:
     - 15:30 Uhr -> UTC Zeit
     - 15:30* Uhr -> Ortszeit
+  - Kreis mit Punkt neben der Uhrzeit -> Gerät Betriebsbereit
   - Für Personengruppen:
       - Kreis mit Punkt:
         - Betriebsart Fahrer
@@ -128,10 +129,12 @@ Antwort: Es wurden keinen Geschwindigkeitsüberschreitungen dokumentiert
 <details>
   <summary> Antwort </summary>
 
+- Haben kein Schaublatt mehr, haben einen digitalen Fahrtenschreiber
+- Fahrzeug muss sich im Stand befinden
 - 3 Sekunden auf Taste [1]
 - Es folgt die automatische Datenspeicherung auf der Fahrerkarte
 - Land eintragen
-- Ausdruck erstellen
+- Ausdruck erstellen (Bestätigen)
 
 </details>
 
@@ -187,7 +190,8 @@ Antwort: Es wurden keinen Geschwindigkeitsüberschreitungen dokumentiert
 <details>
   <summary> Antwort </summary>
 
-- Schauen ob nichts hinter dem Pedal ist (Flasche, Brotdose)
+- Schauen ob nichts hinter dem Pedal ist (Flasche, Brotdose) Auch beim Fahrlehrer schauen
+- Bei Fahrt soll auch nichts nach vorne rutschen, wenn eine Vollbremsung gemacht wird
 - Ob zwei bzw. drei Pedale vorhanden sind
 
 </details>
@@ -198,8 +202,9 @@ Antwort: Es wurden keinen Geschwindigkeitsüberschreitungen dokumentiert
   <summary> Antwort </summary>
 
 - Wir können keinen Vorratsdruck aufbauen, wir haben eine Hydraulikbremse, die mit Bremsflüssigkeit arbeitet
-  - Man könntes es testen indem man die Zündung und Motor anmacht und der Luftdruck aufgebaut wird
-- Fahrbereitschaft feststellen -> Kontrolllampen gehen aus, es gibt keine Warnmeldungen nach dem Starten im Display
+- Motorhaube öffnen und Behälter mit Bremsflüssigkeit zeigen
+  - Man könntes es testen indem man die Zündung und Motor anmacht und der Luftdruck aufgebaut wird, über 6,1 bar würde die Warnleuchte ausgehen
+- Fahrbereitschaft feststellen -> Kontrolllampen gehen aus, die ausgehen sollen. Es gibt keine Warnmeldungen nach dem Starten im Display
 
 </details>
 
@@ -208,7 +213,8 @@ Antwort: Es wurden keinen Geschwindigkeitsüberschreitungen dokumentiert
 <details>
   <summary> Antwort </summary>
 
-- Lufttrocknerpatrone regelmäßig wechseln
+- Haben kein Frostschutzmittel, da wir eine hydralische Bremsanlage haben
+- Lufttrocknerpatrone regelmäßig wechseln (ist Granulat drin)
 
 </details>
 
@@ -285,9 +291,11 @@ Beispiel:
   - Schrauben
   - Steine zwischen Zwillingsbereifung
   - Nägel
+  - Doppelbereifung anschauen, ob etwas dazwischenhängt
 - Reifendruck:
   - Reifendruckkontrollsystem würde anzeigen, wenn Reifendruck zu niedrig ist
   - Sichtprüfung -> alle Reifen sehen ähnlich aus
+  - Zwillingsbereifung: Reifen berühren sich nicht (zu wenig Luft, wenn sie sich berühren)
 
 </details>
 
@@ -297,8 +305,10 @@ Beispiel:
   <summary> Antwort </summary>
 
 - Gebrochen? -> Im Bereich der Schrauben?
-- Gerissen?
-- Vergammelt?
+- Stark Gerissen?
+- Große Beulen?
+- Starker Rost?
+- Sehr Vergammelt?
 
 </details>
 
@@ -307,21 +317,25 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
-- doppelte Sicherung -> Seilzugsystem
+- Haben kein Reserverad dabei
+- Sicherung 1: Reifen hängt unter dem Fahrzeig an einer Gewindestange, Schraube hält Reifen fest
+- Sicherung 2: Zusätzlich ein Splint durch die Gewindestange
+- Hebeeinrichtung um den Reifen runterzukurbeln
+- doppelte Sicherung
+- Reifen muss okay sein (Profil, Druck, Beschädigungen)
 
 </details>
 
-### Funktion der Lenkhilfe prüfen (Motor aus!!!)
+### Funktion der Lenkhilfe prüfen (Motor aus!!!) / Servolenkung
 
 <details>
   <summary> Antwort </summary>
 
-- Servolenkung
-  - Zündung an
-    - Lenkrad auf Spannung:
-      - leichtgängig?
-      - gleichmäßig?
-      - keine Geräusche?
+- Linke Hand ans Lenkrad -> Druck aufbauen -> relativ schwer zu lenken!
+- Danach Motor anmachen -> Lenkrad sollte leichtgängig sein
+- leichtgängig?
+- gleichmäßig?
+- keine Geräusche?
 
 </details>
 
@@ -330,8 +344,10 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
+- Motor starten
+- Fenster runter auf den Reifen gucken und am Lenkrad drehen
 - Lenkspiel:
-  - 2-3 cm Lenkrad drehen -> Bewegung am Rad
+  - Maximal 2-3 cm Lenkrad drehen -> Bewegung am Rad
 
 </details>
 
@@ -350,8 +366,12 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
-- Ist Fahrzeug in der Waage?
-- Feder gerissen?, verrostet?, verschoben?
+- Vor das Fahrzeug stehen und schauen ob es in Waage steht
+- Vorderachse und Hinterachse anschauen
+- Vorderachse (Rad drehen, Motor an, damit Servolenkung funktionert und ordentlich einschlagen, Motor wieder aus)
+- Blattfeder gerissen?, verrostet?, verschoben?
+
+![Blattfeder](Blattfeder.png "a title")
 
 </details>
 
@@ -402,11 +422,18 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
-- Kontrolllampen:
-  - Fernlicht (blaues Fernlichtsymbol)
-  - Feststellbremse (P)
-  - Blinker (Pfeil nach links oder rechts)
+Kontrolllampen: Lampe die leuchtet im Display
+Kontrollsystem: Eine Lampe die leuchtet und ein Signal macht
 
+Ein Kontrollsystem ist auch eine Kontrolllampe, zusätzlich macht es ein Geräusch
+
+- Kontrolllampen:
+  - Abblendlicht (grüne Kontrolllampe)
+  - Fernlicht (blaues Fernlichtsymbol)
+
+- Kontrollsystem:
+  - Blinker links (Farbe grün und macht ein Geräusch)
+  - Handbremse (Farbe rot (P) beim anfahren macht es ein Warnsignal)
 </details>
 
 ### Batterie (Anschlüsse, Befestigung) prüfen
@@ -415,9 +442,10 @@ Beispiel:
   <summary> Antwort </summary>
 
 - Kommen wir nicht ran am Sprinter (unter dem Fahrersitz)
+- Hat 12 Volt, LKW hat 24 Volt 2 Batterien in Reihe geschaltet
 - Flüssgkeiten rausgelaufen?
 - Klemmen fest?
-- Batterien fest?
+- Batterien fest verschraubt?
 - Pole sauber? (nicht korrodiert)
 - + Pol muss eine Abdeckung haben
 - + Pol ist rot
@@ -430,9 +458,12 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
-- Umrissleuchten hinten haben wir nicht
+- jemanden beauftragen sich an das Steuer zu setzen
+- Umrissleuchten hinten haben wir nicht (Fahrzeug ist nicht breit genug)
 - Zündung an und Licht einschalten
 - Schlussleuchten prüfen (Lichter hinten am Fahrzeug)
+- Kein Schmutz, nichts gerissen, Birne funktioniert
+
 </details>
 
 ## 5. Bauteile (?)
@@ -477,7 +508,7 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
-- Tankdeckel öffnen (Nicht den Tankdeckel abschrauben) -> alles dicht?
+- Tankdeckel anschauen (Nicht den Tankdeckel abschrauben) -> alles dicht?, trocken?
 - Unters Auto schauen ob es trocken ist -> riecht?, schimmert es?
 - Kraftstoffvorrat prüfen -> Anzeige im Cockpit
 
@@ -489,9 +520,13 @@ Beispiel:
   <summary> Antwort </summary>
 
 - Keilriemen prüfen
+  - kommen nicht ran beim Sprinter
   - porös?
+  - nicht gerissen?
   - frei von Betriebsstoffen? (Öl, Wasser)
   - Spannung? -> längste Stelle prüfen -> 90° drehbar? oder 1-2cm nachgeben
+
+![Keilriemen](Keilriemen.png "a title")
 
 </details>
 
@@ -500,12 +535,18 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
+- Motorhaube öffnen
 - Scheibenwaschanlage
   - Flüssigkeit vorhanden?
-  - Frostschutzmittel vorhanden?
+  - Frostschutzmittel vorhanden? Im Winter sollte man Frostschutzmittel verwenden
   - Düsen frei?
   - Kontrollleuchte im Cockpit an? (Symbol ist Scheibe)
   - Motorhaube öffnen und Behälter prüfen
+  - Ist voll?
+- Keine Flüssigkeit auf dem Boden
+
+![Scheibenflüssigkeit](Scheibenflüssigkeit.png "a title")
+![Scheibenflüssigkeit_Behälter](Scheibenflüssigkeit_Behälter.png "a title")
 
 </details>
 
@@ -517,6 +558,8 @@ Beispiel:
 - Testen
   - Zündung an
   - Links auf den Blinker drücken und halten
+  - Kommt Wasser aus den Drüsen heraus und trifft es die Scheibe?
+  - Im Winter Frostschutzmittel verwenden
 - Mit Nadelspitze einstellen (nicht mit Schraubenzieher)
   - Düse nicht verstopft?
   - In die richtige Richtung?
@@ -528,7 +571,7 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
-- Wir haben keine Zustandsanzeige
+- Wir haben keine Zustandsanzeige in dem Fahrzeug
 - Wird in der Inspektion gewechselt (einmal im Jahr)
 - Wenn verstopft, dann Motorleistung vermindert
 
@@ -601,10 +644,12 @@ Unterlegkeile:
 <details>
   <summary> Antwort </summary>
 
+- Frontscheibe & Seitenscheiben (alle anschauen)
 - Steinschläge?
 - Milchig?
 - Sauber?
 - Blind?
+- Spiegel fest?
 
 </details>
 
@@ -613,9 +658,14 @@ Unterlegkeile:
 <details>
   <summary> Antwort </summary>
 
-- Verschraubung fest, nicht verbogen?
+- Optisch prüfen -> sieht ok aus
+- Verschraubung fest, nicht verbogen/schief?, nichts verrostet? (nicht anfassen, fett dran)
+- Steckdose in Ordnung? (Augenscheinlich, keine Kabel raushängen?
+- Öse für das Abreißseil vorhanden?
 - Kappe -> Haltefunktion gegen rausdrehen
 - Kupplung geschlossen?
+
+![Öse Anhängerkupplung](Öse_anhängerkupplung.png "a title")
 
 </details>
 
@@ -625,9 +675,13 @@ Unterlegkeile:
   <summary> Antwort </summary>
 
 - Ladungssicherung -> Bank hinten, Tür zu, Tanköffung zu?
+- Kofferraum aufmachen -> Wäre Ladung drin, dann entweder Formschlüssig oder Kraftschlüssig sichern
+- Seitentür: Schienensystem für die drei Sitze -> fest?, Hebel für die Sitze -> fest? -> Bei allen nachgucken
 - Bei Wohnmobil -> kein Schnee auf dem Dach
 - Formschlüssig -> keine Lücken zwischen den Teilen
 - Kraftschlüssig -> keine Bewegung zwischen den Teilen (z.B. Spanngurte)
+
+![Ladungssicherung](Ladungssicherung.png "a title")
 
 </details>
 
