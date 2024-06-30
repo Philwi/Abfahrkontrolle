@@ -23,6 +23,7 @@ Rahmenbedingungen:
 
 <details>
   <summary> Antwort </summary>
+
 - Taste [1] 3 Sekunden drücken um Schacht zu öffnen
 - Taste [1] kurz drücken um Tätigkeit einzustellen
   - Bereitschaft (Wenn nicht gefahren wird)
@@ -31,15 +32,20 @@ Rahmenbedingungen:
   - Fahrt (Wenn gefahren wird)
 - Taste [2] wie Taste [1]
 - Taste [Return][ArrowUp][ArrowDown][OK] Menüfeld. Zum Beispiel Uhrzeit einstellen, Ausdruck machen
+
+![Bedienelemente Fahrtenschreibers](Bedienelemente_Fahrtenschreiber.png "a title")
+
 </details>
 
 ### Bedeutung der Kontrolllampen des Fahrtenschreibers; Ausfall des Gerätes
 
 <details>
   <summary> Antwort </summary>
+
 1. Zündung an
-  - Kontrolllampe zeigen (ohne Fahrerkarte fahren)
+  - Kontrolllampe zeigen -> TCO auf dem Display
   - Ausfall?
+    - Doppelpunkt blinkt nicht, Sekunden würden nicht mitgezählt werden
     - Display dunkel
     - Fehlercode
     - Kontrolllampe leuchtet (TCO leuchtet gelb oder rot)
@@ -83,6 +89,8 @@ Rahmenbedingungen:
       - []:
         - BAG
 
+![Symbole Fahrtenschreiber](Fahrtenschreiber_Symbole.png "a title")
+
 </details>
 
 ### Überprüfen eines Schaublattes bzw. eines Ausdruckes des Fahrtenschreibers (Bekommen wir ausgehändigt)
@@ -90,7 +98,7 @@ Rahmenbedingungen:
 <details>
   <summary> Antwort </summary>
 
-![](/Fahrkartenschreiber_Ausdruck.jpeg)
+![Fahrtenschreiber Ausdruck](Fahrtenschreiber_Ausdruck.jpeg)
 
 a) Wie viele km wurden gefahren?
 
@@ -149,7 +157,7 @@ Antwort: Es wurden keinen Geschwindigkeitsüberschreitungen dokumentiert
 <details>
   <summary> Antwort </summary>
 
-- Haben wir nicht am Sprinter
+- Haben wir nicht am Sprinter (Bremsflüssigkeit zeigen im Motorraum)
 - Sicherungsdruck 6 bar
 - Prüfen: Zündung an, Mehrfach Bremspedal betätigen, bis unter 6 bar, Warnleuchte muss angehen [(!)]
 
@@ -161,6 +169,7 @@ Antwort: Es wurden keinen Geschwindigkeitsüberschreitungen dokumentiert
   <summary> Antwort </summary>
 
 - zum Rad gehen
+- Betriebsbremse = Scheibenbremse beim Sprinter
 - Bremsscheibe anschauen durch Felge (Löcher bei den Muttern)
   - Riefenbildung?
   - Rost?
@@ -252,10 +261,12 @@ Beispiel:
 
 - alle da?
 - alle fest? (könnte man prüfen mit Drehmomentschlüssel)
-- Rostnasen an den Muttern? (Rost an den Muttern)
+- Rostnasen an den Muttern? (Rost an den Muttern) -> Indikator für lockere Muttern, mit Drehmomentschlüssel nachziehen
 - Indikatoren an den Muttern? (Farbe an den Muttern)
 - Gewindegänge gleichmäßig? (außer bei Schutzkranzmuttern)
 - Drehmoment gleichmäßig?
+
+![Radmuttern Radkranz](Radmuttern_Radkranz.png "a title")
 
 </details>
 
@@ -382,7 +393,7 @@ Beispiel:
 1. Zündung an
 2. Abblendlicht einschalten -> kontrollieren
 3. Fernlicht einschalten -> kontrollieren
-4. Haben wir nicht am Sprinter (Würde aber seitlich am Fahrzeug sein)
+4. Umrissleuchten: Haben wir nicht am Sprinter (Würde aber seitlich am Fahrzeug sein)
 
 </details>
 
@@ -437,9 +448,13 @@ Beispiel:
 - Unters Auto schauen ob es trocken ist
 - Wasserstand prüfen (pink)
 - Inhalt: Wasser mit Frostschutzmittel
+- Nur bei kaltem Motor prüfen
 
 ![Kühlergrill](Kühlergrill.png "a title")
 ![Kühlflüssigkeit](Kühlflüssigkeit.png "a title")
+![Ort Kühlflüssigkeit](Ort_Kühlflüssigkeit.png "a title")
+
+![Kühlflüssigkeitbehälter](Kühlflüssigkeitsbehälter.png "a title")
 
 </details>
 
@@ -448,8 +463,12 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
+- Motorhaube öffnen
+- Motoröl nachfüllen -> spezielles Motoröl steht in der Betriebsanleitung
 - nur über Menü möglich
 - Menü öffnen -> Service -> Motoröl
+
+![Motoröl](Motoröl_nachfüllen.png "a title")
 
 </details>
 
@@ -522,20 +541,25 @@ Beispiel:
 <details>
   <summary> Antwort </summary>
 
-1. eine Warnweste pflicht
+1. eine Warnweste pflicht (Linke hintere Tür)
   - Prüfzeichen CE
+  - sauber?
   - max 3 Waschgänge (damit die Leuchtkraft erhalten bleibt)
   - Richtige Größe
-2. Warnleuchte prüfen
+2. Warnleuchte prüfen (Linke hintere Tür)
   - Blinklicht einschalten
-  - Drehakku prüfen
+  - Akku prüfen -> durch Testfunktion, wenn blinkt dann noch mindestens 6 Stunden haltbar
   - Sicherer Stand?
   - Prüfzeichen CE
-3. Warndreieck
-  - muss vorhanden sein
+3. Warndreieck (seitlich rechts verstaut)
+  - muss vorhanden sein (Aufmachen und reinschauen ob es überhaupt vorhanden ist)
+  - Geprüft? E13
   - Hülle auf Fahrersitz packen, damit die nicht verloren geht
   - Warnleuchte prüfen
   - Warndreieck prüfen
+
+![Warnmitteil](Ort_der_Warnweste_etc.png "a title")
+![Warnleuchte](warnleuchte.png "a title")
 
 </details>
 
@@ -548,8 +572,11 @@ Beispiel:
 Unterlegkeile:
 - sollten doppelt gesichert sein
 - sollten unbeschädigt sein
-- Bremskante haben
+- Bremskante haben (Metallkante vorhanden?)
 - richtige Größe -> zum Reifen passend
+
+![Unterlegkeile](Unterlegkeil.png "a title")
+![Unterlegkeil Doppelsicherung](Unterlegkeil_Doppelsicherung.png "a title")
 
 </details>
 
@@ -558,11 +585,14 @@ Unterlegkeile:
 <details>
   <summary> Antwort </summary>
 
+- Hinten, rechte Tür
 - Klappe auf
 - zeigen
 - Packliste zeigen
 - Haltbarkeitsdatum zeigen
 - medizinische Maske zeigen
+
+![Verbandkasten](Verbandskasten.png "a title")
 
 </details>
 
