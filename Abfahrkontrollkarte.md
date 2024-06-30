@@ -4,6 +4,9 @@
 
 ### Aufgaben vor Fahrtantritt am Fahrkartenschreiber
 
+<details>
+  <summary> Antwort </summary>
+
 - Zündung einschalten
 - 3 Sekunden auf Taste [1] drücken um Schacht zu öffnen
 - Fahrerkarte einstecken (Pfeil nach oben und Chip nach vorne)
@@ -13,6 +16,7 @@ Rahmenbedingungen:
 
 - 28 Tage lückenlose Nachweispflicht
 - Nachtrag z.B. Ruhezeit, Werkstattbesuch, Abfahrtskontrolle
+</details>
 
 ### Bedienung der Schalter am Fahrtenschreiber
 
@@ -70,6 +74,8 @@ Rahmenbedingungen:
         - BAG
 
 ### Überprüfen eines Schaublattes bzw. eines Ausdruckes des Fahrtenschreibers (Bekommen wir ausgehändigt)
+
+![](/Fahrkartenschreiber_Ausdruck.jpeg)
 
 a) Wie viele km wurden gefahren?
 
